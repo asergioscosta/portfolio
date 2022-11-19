@@ -1,0 +1,417 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #D3D3D3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: cadetblue;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.portfolio-submenu {
+    font-size: 16px;
+    border: none;
+    background-color: cadetblue;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: cadetblue;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: cadetblue;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: cadetblue;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    word-wrap: break-word;
+
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #d2d2d2;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.mt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footer {
+
+    text-align: center;
+    background-color: cadetblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+#footer p {
+    color: #333;
+}
+
+#footer h4 {
+    color: #333;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.texto-rodape {
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+}
+
+.email-rodape {
+    width: 40%;
+    display: inline-block;
+}
+
+.redes-rodape {
+    width: 20%;
+    display: inline-block;
+}
+
+.row {
+    text-align: center;
+    display: inline;
+    width: 100%;
+}
+
+.row form {
+    text-transform: uppercase;
+}
+
+.row form input {
+    text-transform: uppercase;
+}
+
+.row form textarea {
+    text-transform: uppercase;
+}
+
+.esquerda {
+    margin-bottom: 0;
+    width: 100%;
+    padding: 0 15px;
+    height: 80px;
+}
+
+.direita {
+    padding: 0.1rem;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.video {
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+}
+
+.legenda-figcaption {
+    text-align: center;
+}
+
+.sobremim {
+    text-align: justify;
+    height: 400px;
+}
+
+.perfil-imagem {
+    text-align: center;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+}
+
+.texto-legenda {
+    text-align: center;
+}
+
+
+.certificado {
+    text-align: center;
+}
+
+.projeto {
+    text-align: center;
+}
+
+tr {
+    padding: 10px;
+    color: #333;
+    background: #f0eded;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: 'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+}
+
+th {
+    color: #333;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: cadetblue;
+}
+
+td:hover {
+    background: cadetblue;
+}
+
+.fotoperfil {
+    width: 30%;
+    border: thin silver solid;
+    margin: 0.1em;
+    padding: 0.1em;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    display: inline-block;
+}
+
+img.scaled {
+    width: 90%;
+
+}
+
+
+
+div.gallery {
+    border: 1px solid #ccc;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    width: 24.99999%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tabela {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.botaoenviar {
+    font-size: 1.2em;
+    background: cadetblue;
+    border: 0;
+    margin-bottom: 1em;
+    color: #333;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    transform: translate(-50% -50%);
+}
+
+.botaoenviar:hover {
+    background: rgb(197, 199, 199);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botaoenviar select {
+    cursor: pointer;
+}
+
+.botaolimpar {
+    font-size: 1.2em;
+    background: cadetblue;
+    border: 0;
+    margin-bottom: 1em;
+    color: #333;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    transform: translate(-50% -50%);
+}
+
+.botaolimpar:hover {
+    background: rgb(197, 199, 199);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botaolimpar select {
+    cursor: pointer;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+
+    color: cadetblue;
+    display: grid;
+}
+
+fieldset {
+    border: 0%;
+}
+
+.botão {
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

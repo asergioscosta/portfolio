@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <meta name="author" content="Augusto Sérgio">
+    <link rel="stylesheet" href="css/css.css">
+
+    <style>
+        .botaoanimado {
+            height: 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <menu>
+        <ul>
+            <li><a href="paginaprincipal.html">Página Principal</a></li>
+            <li><a href="sobremim.html">Sobre Mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="atuacaoprofissional.html">Atuação Profissional</a></li>
+            <li><a class="active" href="contato.html">Contato</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </menu>
+
+    <div class="row mt">
+        <h1>CONTATO</h1>
+        <hr>
+        <p>Preencha o formulário abaixo que entrarei em contato com você.</p>
+    </div>
+
+
+    <fieldset class="campo">
+        <label for="iptNome">Nome:</label>
+        <input type="nome" id="nome" name="nome" placeholder="Digite o Nome"><br><br>
+
+        <label for="iptSobrenome">Sobrenome:</label>
+        <input type="sobrenome" id="sobrenome" name="sobrenome" placeholder="Digite o Nome"><br><br>
+
+        <label for="iptEmail">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite o E-mail"><br>
+    </fieldset>
+
+    <div class="campo">
+        <label for="iptMensagem">Mensagem:</label><br>
+        <textarea row="6" style="width: 26em;" placeholder="Digite aqui sua mensagem"></textarea>
+    </div>
+
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" id="fieldSubscribe" value="false" data-namelabel="iptSelecionar"
+                aria-label="iptSelecionar">
+            Ao selecionar esta caixa, autoriza o envio de e-mails.
+        </label>
+    </div>
+
+    <button class="botaoenviar" type="submit">Enviar</button>
+    <button class="botaolimpar" type="submit">Limpar</button>
+
+    </form>
+    </div>
+
+    </div>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="texto-rodape">
+                <p class="footer_lorem_text">Entre em contato através das redes sociais ou envie um e-mail.</p>
+            </div>
+
+            <div class="email-rodape">
+                <h4><b>Contato</b></h4>
+                <p>
+                    asergioscosta@gmail.com<br />
+                    +55 32 99837-6945
+                </p>
+            </div>
+
+            <div class="redes-rodape">
+                <h4><b>Redes Sociais</b></h4>
+                <a href="https://www.instagram.com/asergioscosta/" target="_blank"><img
+                        src="imagens/redessociais/IconInstagram.png"></a>
+                <a href="https://www.linkedin.com/in/asergioscosta/" target="_blank"><img
+                        src="imagens/redessociais/IconLinkedin.png"></a>
+                <a href="https://api.whatsapp.com/send?phone=5532998376945&text=Ol%C3%A1%2C%20tudo%20bem%3F"
+                    target="_blank"><img src="imagens/redessociais/IconWhatsapp.png"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
