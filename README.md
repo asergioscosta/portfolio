@@ -18,7 +18,7 @@
 
 ## Descrição do Projeto
 
-Este projeto tem como objetivo o desenvolvimento de um portfólio pessoal, como parte da disciplina de Desenvolvimento de Web Site na Faculdade Metodista Granbery. O portfólio tem a finalidade de apresentar informações sobre a formação acadêmica, experiência profissional, habilidades tecnológicas e projetos pessoais.
+Este projeto tem como objetivo o desenvolvimento de um portfólio pessoal, como parte da disciplina de Desenvolvimento de Web Site da Faculdade Metodista Granbery. O portfólio tem a finalidade de apresentar informações sobre a formação acadêmica, experiência profissional, habilidades tecnológicas e projetos pessoais.
 
 ## Requisitos
 
