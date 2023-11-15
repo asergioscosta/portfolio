@@ -65,6 +65,7 @@ Este projeto tem como objetivo o desenvolvimento de um portfólio pessoal, como 
 
 - **Linguagem:** ``HTML5`` e ``CSS``
 - **Ambiente de Desenvolvimento:** ``Visual Studio Code``
+- **Ferramentas de Controle de Versão:** ``GitHub``
 
 ## Acesso ao Projeto
 
@@ -72,12 +73,13 @@ Você pode acessar os arquivos do projeto [clicando aqui](https://github.com/ase
 
 ## Abrir e Executar o Projeto
 
-Após baixar o projeto, siga as instruções abaixo para abrir e executá-lo utilizando o `Visual Studio Code`.
-
-1. Abra o Visual Studio Code;
-2. No menu principal, selecione "File" -> "Open Folder" e navegue até o diretório onde você baixou o projeto;
-3. Selecione a pasta do projeto e clique em "Open";
-4. Crie as aplicações do projeto e os códigos.
+1. Escolha uma pasta para criar o projeto. Ex.: ``d:\nome_pasta``
+2. Crie um repositório no GitHub.
+3. Clone o repositório usando o comando ``git clone <URL_do_repositorio>``.
+4. Abra o Visual Studio Code;
+5. No menu principal, selecione "File" -> "Open Folder" e navegue até o diretório onde você baixou o projeto;
+6. Selecione a pasta do projeto e clique em "Open";
+7. Crie as aplicações do projeto e os códigos.
 
 ## Desenvolvedores
 
