@@ -37,7 +37,7 @@ Este projeto tem como objetivo o desenvolvimento de um portfólio pessoal, como 
    - Os links para as redes sociais devem abrir em uma nova aba do navegador.
 
 3. **Página Principal:**
-   - Página que contém aspectos relevantes da sua vida pessoal e profissional.
+   - Página que contém aspectos relevantes da vida pessoal e profissional.
 
 4. **Sobre Mim:**
    - Página que conta detalhes sobre a trajetória acadêmica, profissional, e suas habilidades.
